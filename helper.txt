@@ -1,0 +1,13 @@
+# https://www.fns24.com/
+
+
+#--------- Color --------
+nav_color : #9E1B21
+hover_color/active : #E21C23
+btn_color : #222B46
+footer_color : #111111
+
+
+#--------- Font -------
+Font family : SolaimanLipi
+

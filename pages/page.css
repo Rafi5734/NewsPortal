@@ -1,0 +1,19 @@
+.breadcrumb_div{
+    background-color: #f5f5f5;
+}
+.form-select:focus {
+    box-shadow: none !important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.v-pills-tab{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.newspaper_main_header{
+    border-left: 5px solid #00aadd;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #212529;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+    padding-bottom: 0;
+}
+.btn_user{
+    border-radius: 20px !important;
+    padding: 1px 10px;
+}
+.password_change{
+    padding: 80px 0;
+}
+
+.all_post,.add_post{
+    background-color: #fff;
+}
+.all_post,.add_post{
+    padding: 30px 0;
+}
+@media (min-width:0) and (max-width:575px){
+    nav img{
+        margin-left: 45px;
+        margin-bottom: 5px;
+    }
+    .password_change{
+        padding: 30px 0;
+    }
+}
+
+@media (min-width:767.1px) and (max-width:991px){
+    nav img{
+        margin-left: 55px;
+        margin-bottom: 5px;
+    }
+    
+}
+
+
+@media (min-width:991.1px) and (max-width:1199px){
+    
+}

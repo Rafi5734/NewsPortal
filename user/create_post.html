@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/dropzone.min.css">
+    <link rel="stylesheet" href="../admin/dist/plugins/summernote/summernote-bs4.min.css">
+
+    <!-- Custom CSS file  -->
+    <link rel="stylesheet" href="../resources/css/user.css"> 
+    <link rel="stylesheet" href="../resources/css/responsive.css">
+
+    <title>Add Post</title>
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand text-center" href="#">
+                <img src="../resources/img/auth_logo.png" alt="">
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class=" btn btn-sm btn-primary btn_user" aria-current="page" href="./create_post.html">Add New Post</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="btn btn-sm btn-primary btn_user" href="./all_post.html">Show my Post</a>
+              </li>
+           
+            </ul>
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                User  <i class="fa fa-user ml-1"></i> 
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="./change_password.html">Password Change</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="add_post">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3>Create Post</h3>
+                <hr>
+                <form action="/upload" method="post" autocomplete="off" id="user_post_image_upload" enctype="multipart/form-data">
+                    <div class="row my-2 gx-0">
+                        <div class="col-md-2"><b>District *</b></div>
+                        <div class="col-md-3">
+                            <select name="" id="" class="form-control">
+                                <option value="">Dhaka</option>
+                                <option value="">Cumilla</option>
+                                <option value="">Chandpur</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row my-2 gx-0">
+                        <div class="col-md-2"><b>Heading *</b></div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="Post Heading">
+                        </div>
+                    </div>
+
+
+                    <div class="row my-2 gx-0">
+                        <div class="col-md-2"><b>Writer *</b></div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="Post Writer">
+                        </div>
+                    </div>
+
+                    <div class="row my-2 gx-0">
+                        <div class="col-md-2"><b>News *</b></div>
+                        <div class="col-md-9">
+                          <textarea name="" id="admin_post_summernote" class="form-control" cols="50" rows=""></textarea>
+                        </div>
+                    </div>
+                    <div class="row my-2 gx-0">
+                      <div class="col-md-2"><b>Images *</b></div>
+                      <div class="col-md-9">
+                        <div class="dropzone form-group" id="myAwesomeDropzone">
+                          <input type="hidden" name="images" value="images" id="images">
+                          <div class="dz-default dz-message">
+                              <span><i class="fa fa-cloud-upload"></i>
+                                  <br>Drop files here to upload
+                              </span>
+                          </div>
+                      </div>     
+                      </div>
+                  </div>
+                    <div class="row my-2 gx-0">
+                        <div class="col-md-9">
+                            <button class="btn btm-sm btn-primary" id="form_submit_button">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Jquery CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.2/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/dropzone.js"></script>
+   <!-- <script src="../resources/js/main.js"></script> -->
+
+
+   <script src="../admin/dist/plugins/summernote/summernote-bs4.min.js"></script>
+
+
+   <script>
+    $('#admin_post_summernote').summernote({
+      height: 200
+    })
+  </script>
+
+
+
+
+
+   <script type="text/javascript">
+    var $form = $('#user_post_image_upload');
+   $method = $form.attr('method');
+   $url = $form.attr('action');
+   
+   // Disable AutoDiscover
+   Dropzone.autoDiscover = false;
+   
+       // Set Dropzone Options
+       Dropzone.options.myAwesomeDropzone = {
+           autoProcessQueue: false,
+           uploadMultiple: true,
+           parallelUploads: 20,
+           maxFiles: 20,
+           addRemoveLinks: true,
+           acceptedFiles: ".jpg, .jpeg, .png",
+           maxFilesize: 2, // 2MB
+           dictDefaultMessage: "Drop your files here!!!",
+       };
+   
+   // Initialize Dropzone
+   var myDropzone = new Dropzone("#myAwesomeDropzone", {url: $url, method: $method});
+
+   // Initialize Submit Button
+   var submitButton = document.querySelector("#form_submit_button");
+
+   // Submit Button Event on click
+   submitButton.addEventListener("click", function(e) {
+       e.preventDefault();
+       myDropzone.processQueue();
+   });
+   
+   // on sending via dropzone append token and form values (using serializeObject jquery Plugin)
+       myDropzone.on("sendingmultiple", function(file, xhr, formData) {
+           var formValues = $('#user_post_image_upload').serializeObject();
+           $.each(formValues, function(key, value){
+               formData.append(key, value);
+           });
+       });
+
+       // on success redirect
+       myDropzone.on("successmultiple", function(){
+           // redirect to products page after success.
+           window.location="{{URL::to('/products')}}";
+       });
+
+       // on error show errors
+       myDropzone.on("errormultiple", function(file, errorMessage, xhr){
+           var arr = [];
+           $.each(errorMessage, function(key, value) {
+               console.log(value);
+               arr += value + "\n";
+           });
+           // show error message
+           console.log(arr);
+       });
+</script>
+ 
+  </body>
+</html>

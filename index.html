@@ -1,0 +1,2260 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- site icon start-->
+    <link rel="icon" href="https://www.fns24.com/includes/themes/default/images/favicon.ico" sizes="16x16">
+    <!-- site icon end-->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- Custom CSS file  -->
+    <link rel="stylesheet" href="./resources/css/responsive.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <!-- <link rel="stylesheet" href="./fonts/stylesheet.css"> -->
+    <title>FNS24-dev</title>
+</head>
+
+<body>
+    <div>
+        <div class="main_div">
+            <div class="div_wrapper">
+               <!-- navbar header start -->
+               <div class="navbar_upper">
+                  <div class="container-fluid">
+                     <div class="row logo_row">
+                        <div class="logo_section col-sm-12 col-md-4 col-lg-3 d-flex
+                           justify-content-start flex-column">
+                          <a href="/"> <img src="./resources/img/fns24_icon&Logo.png" alt="site-logo" class="img-fluid main_logo pt-2 pb-2"></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="top_second_parent">
+                     <div class="container-fluid">
+                        <div class="row gx-0">
+                           <div class="col-sm-12 col-md-12 col-lg-3 ">
+                              <p class="general_fontSize text_white nav_time"> বুধবার, ০৩ মে ২০২৩, ২০ বৈশাখ ১৪৩০ </p>
+                           </div>
+                           <div class="col-sm-12 col-md-12 col-lg-7">
+                              <ul class="row container d-flex justify-content-
+                                 align-items-center no_bullet middle">
+                                 <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                    align-items-center">
+                                    <a href="#" class="upper_nav_links text-nowrap
+                                       text-decoration-none
+                                       text_white">Bangla Converter</a>
+                                 </li>
+                                 <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                    align-items-center">
+                                    <a href="./auth/" class="upper_nav_links text-nowrap
+                                       text-decoration-none
+                                       text_white">Public News</a>
+                                 </li>
+                                 <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                    align-items-center">
+                                    <a href="#" class="upper_nav_links text-nowrap
+                                       text-decoration-none
+                                       text_white">News Service</a>
+                                 </li>
+                                 <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                    align-items-center">
+                                    <a href="#" class="upper_nav_links text-nowrap
+                                       text-decoration-none
+                                       text_yellow text-sm-center">payment</a>
+                                 </li>
+                                 <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                    align-items-center">
+                                    <a href="#" class="upper_nav_links text-nowrap
+                                       text-decoration-none
+                                       text_white">Newspaper</a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-12 col-md-12 col-lg-2 section_3rd_header ">
+                              <ul class="d-flex top_social_box">
+                                 <li class="me-1"><a href="#">
+                                    <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/facebook.png" alt="rss_image">
+                                    </a>
+                                 </li>
+                                 <li class="me-1"><a href="#">
+                                    <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/twitter.png" alt="rss_image">
+                                    </a>
+                                 </li>
+                                 <li class="me-1"><a href="#">
+                                    <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/youtube.png" alt="rss_image">
+                                    </a>
+                                 </li>
+                                 <li class="me-1"><a href="#">
+                                    <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/plus.png" alt="rss_image">
+                                    </a>
+                                 </li>
+                                 <li class="me-1"><a href="#">
+                                    <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/linkedin.png" alt="linkedin_image">
+                                    </a>
+                                 </li>
+                                 <li class="me-1"><a href="#">
+                                    <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/rss.png" alt="rss_image">
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               <!-- navbar header end -->
+               <!-- main navbar start -->
+               <div class="container-fluid">
+                  <nav class="navbar navbar-expand-lg main_nav">
+                     <button class="navbar-toggler text-center w-100 pt-3 pb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="text-white fs-6 fw-bold">মেনুবার</span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                        <ul class="navbar-nav navbar_nav_main w-100 ps-0">
+                           <li class="nav-item new_active">
+                              <a class="nav-link text-center" aria-current="page" href="/">
+                                 <span class="ms-1">হোম</span>
+                              </a>
+                           </li>
+                           <li class="district_link p-0 mb-0 nav-item dropdown
+                              ">
+                              <a class="text-center mb-0 nav-link dropdown-toggle text-start" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="text_white
+                                 general_fontSize">জেলা সংবাদ</span>
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                 <!-- multilevel dropdown start -->
+                                 <li class="dropend p-0 border-bottom">
+                                    <a class="nav-link dropdown_link pt-1 pb-1
+                                       dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="text_white general_fontSize city_name">বরিশাল</span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                       <li class="border-bottom">
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize
+                                             ">ঝালকাঠি </span>
+                                          </a>
+                                       </li>
+                                       <li class="border-bottom">
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize">পটুয়াখালী
+                                          </span>
+                                          </a>
+                                       </li>
+                                       <li>
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize">পিরোজপুর
+                                          </span>
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <!-- multilevel dropdown end -->
+                                 <!-- multilevel dropdown start -->
+                                 <li class="dropend p-0 border-bottom">
+                                    <a class="nav-link dropdown_link pt-1 pb-1
+                                       dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="text_white general_fontSize city_name">চট্রগ্রাম</span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                       <li class="border-bottom">
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize
+                                             ">কুমিল্লা </span>
+                                          </a>
+                                       </li>
+                                       <li class="border-bottom">
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize">চাঁদপুর
+                                          </span>
+                                          </a>
+                                       </li>
+                                       <li>
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize">ফেনী
+                                          </span>
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <!-- multilevel dropdown end -->
+                                 <!-- multilevel dropdown start -->
+                                 <li class="dropend p-0">
+                                    <a class="nav-link dropdown_link pt-1 pb-1
+                                       dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="text_white general_fontSize city_name">ঢাকা</span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                       <li class="border-bottom">
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize
+                                             ">ঢাকা </span>
+                                          </a>
+                                       </li>
+                                       <li class="border-bottom">
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize">গাজীপুর
+                                          </span>
+                                          </a>
+                                       </li>
+                                       <li>
+                                          <a class="dropdown-item" href="#">
+                                          <span class="text_white general_fontSize">নরসিংদী
+                                          </span>
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <!-- multilevel dropdown end -->
+                              </ul>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" target="_blank" aria-current="page" href="./pages/category.html">বাংলাদেশ</a>
+                           </li>
+                           <li class="nav-item text-center">
+                              <a class="nav-link text-nowrap" aria-current="page" href="./pages/category.html">বিশেষ সংবাদ</a>
+                           </li>
+                           <li class="nav-item text-center">
+                              <a class="nav-link text-nowrap" aria-current="page" href="./pages/category.html">বিশেষ সংবাদ</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/category.html">অর্থনীতি</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/category.html">বিনোদন</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">বিশ্ব</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">লাইফস্টাইল</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">প্রযুক্তি</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">সংঘটন</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">ধর্ম</a>
+                           </li>
+                           
+                           <li class="nav-item">
+                              <a class="nav-link text-center " aria-current="page" href="./pages/cateory.html">সাহিত্য</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center " aria-current="page" href="./pages/cateory.html">মুক্তিমত</a>
+                           </li>
+                           <li class="extra_item nav-item dropdown">
+                              <a class="extra_link text-center nav-link dropdown-toggle onnanno" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">অন্যান্য 
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                                 <li><a class="dropdown-item" href="./pages/newspaper.html">
+                                    <span class="text_white general_fontSize">
+                                    সম্পাদকীয়
+                                    </span>
+                                    </a>
+                                 </li>
+                                 <li><a class="dropdown-item" href="#">
+                                    <span class="text_white general_fontSize">
+                                    প্রবাস
+                                    </span>
+                                    </a>
+                                 </li>
+                                 <li><a class="dropdown-item" href="#">
+                                    <span class="text_white general_fontSize">
+                                    এইদিনে
+                                    </span>
+                                    </a>
+                                 </li>
+                                 <li><a class="dropdown-item" href="./pages/photo.html">
+                                    <span class="text_white general_fontSize">
+                                    ছবি
+                                    </span>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>  
+               </div>
+               <!-- main navbar end -->
+            </div>
+         </div>
+         
+         <section>
+            <div class="container-fluid">
+               <div class="row g-1">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-1">
+                      <div class="post-list-blocks clearfix">
+                          <a href="#">
+                              <img src="images/img1_145x100.png" alt="">
+                              খবরের কাগজের আড়ালে মারিয়া মিমখবরের কাগজের আড়ালে মারিয়া মিম
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-1">
+                      <div class="post-list-blocks clearfix">
+                          <a href="#">
+                              <img src="images/img1_145x100.png" alt="">
+                              ঝলক দেখালেন জয়া আহসান
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-1">
+                      <div class="post-list-blocks clearfix">
+                          <a href="#">
+                              <img src="images/img1_145x100.png" alt="">
+                              ০৮ মে ২০১৬: জিম্বাবুয়ের বিপক্ষে বাংলাদেশের ‘সেরা’রা
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-1">
+                      <div class="post-list-blocks clearfix">
+                          <a href="#">
+                              <img src="images/img1_145x100.png" alt="">
+                              ০৮ মে ২০১৬:পথে নামার এখনই সময়
+                          </a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+         </section>
+         <!-- Second Section -->
+         <section class="second_section" id="second_section_id">
+            <div class="container-fluid">
+               <div class="row row-cols-sm-1 row-cols-lg-3 g-1">
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-sm-1">
+                        <div class="card_wrapper h-100 border border-2 p-1 m-0 bg-light">
+                           <div class="carosuel_card">
+                              <div class="second_section_carousel">
+                              <div>
+                                 <div class="item item_1">
+                                    <a href="#">
+                                       <img class="w-100 h-auto" src="./resources/img/big-slider-2.jpeg" alt="image_1" />
+                                       <div class="text-block">
+                                          <h5 class="ps-2 pt-3 pb-2 header_section_2">লন্ডনের উদ্দেশে ওয়াশিংটন ছাড়বেন : প্রধানমন্ত্রী
+                                          </h5>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div>
+                                 <div class="item item_1">
+                                    <a href="#">
+                                       <img class="w-100 h-auto" src="./resources/img/big-slider-3.jpeg" alt="image_1" />
+                                       <div class="text-block">
+                                          <h5 class="ps-2 pt-3 pb-2 header_section_2">লন্ডনের উদ্দেশে ওয়াশিংটন ছাড়বেন : প্রধানমন্ত্রী
+                                          </h5>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div>
+                                 <div class="item item_1">
+                                    <a href="#">
+                                       <img class="w-100 h-auto" src="./resources/img/big-slider-2.jpeg" alt="image_1" />
+                                       <div class="text-block">
+                                          <h5 class="ps-2 pt-3 pb-2 header_section_2">লন্ডনের উদ্দেশে ওয়াশিংটন ছাড়বেন : প্রধানমন্ত্রী
+                                          </h5>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div>
+                                 <div class="item item_1">
+                                    <a href="#">
+                                       <img class="image_1 w-100 h-auto" src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/294620_image_url_02-.jpg&h=395&w=610&zc=1" alt="image_1" />
+                                       <div class="text-block">
+                                          <h5 class="ps-2 pt-3 pb-2 header_section_2">লন্ডনের উদ্দেশে ওয়াশিংটন ছাড়বেন : প্রধানমন্ত্রী
+                                          </h5>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mb-sm-1">
+                     <div class="card tab_card ps-0 pe-0 bg-light border border-2">
+                        <div class="tab_buttons w-100">
+                           <div class="ps-1 nav w-100 nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                              <button class="btn_custom active" id="v-pills-top-tab" data-bs-toggle="pill" data-bs-target="#v-pills-top" type="button" role="tab" aria-controls="v-pills-top" aria-selected="false">
+                                 <span class="w-100">শীর্ষ সংবাদ </span>
+                              </button>
+
+                              <button class="ps-3 pe-3 btn_custom" id="v-pills-max-tab" data-bs-toggle="pill" data-bs-target="#v-pills-max" type="button" role="tab" aria-controls="v-pills-max" aria-selected="false">
+                                 <span class="w-100">সর্বাধিক </span>
+                              </button>
+     
+                              <button class="ps-3 pe-3 btn_custom" id="v-pills-latest-tab" data-bs-toggle="pill" data-bs-target="#v-pills-latest" type="button" role="tab" aria-controls="v-pills-latest" aria-selected="false">
+                                 <span class="w-100">সর্বশেষ </span>
+                              </button>
+                 
+                           </div>
+                        </div>
+                        <div class="tab-content">
+                           <div class="tab-content p-0 w-100 h-100" id="v-pills-tabContent">
+                              <div class="tab-pane fade show active" id="v-pills-top" role="tabpanel" aria-labelledby="v-pills-top-tab">
+                                 <div class="news__box">
+                                    <ul class="list-title-block">
+                                       <li>
+                                          <div class="list-preview">
+                                              <a href="#">
+                                                  <img src="./resources/img/thumb-6.jpeg" alt="">
+                                              </a>
+                                          </div>
+                                          <h4>
+                                              <a href="#">বোমা পেতে রাখা ছিল রুশ বিমান টিত:Prime Minister</a></h4>
+                                      </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা</a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা </a></h4>
+
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="d-flex justify-content-end">
+                                    <a class="btn_custom_more text-center" href="#">আরও</a>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade" id="v-pills-max" role="tabpanel" aria-labelledby="v-pills-max-tab">
+                                 <div class="news__box">
+                                    <ul class="list-title-block">
+                                       <li>
+                                          <div class="list-preview">
+                                              <a href="#">
+                                                  <img src="./resources/img/thumb-6.jpeg" alt="">
+                                              </a>
+                                          </div>
+                                          <h4>
+                                              <a href="#">বোমা পেতে রাখা ছিল রুশ বিমান টিত:Prime Minister</a></h4>
+                                      </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা</a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা </a></h4>
+
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="d-flex justify-content-end">
+                                    <a class="btn_custom_more text-center" href="#">আরও</a>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade" id="v-pills-latest" role="tabpanel" aria-labelledby="v-pills-latest-tab">
+                                 <div class="news__box">
+                                    <ul class="list-title-block">
+                                       <li>
+                                          <div class="list-preview">
+                                              <a href="#">
+                                                  <img src="./resources/img/thumb-6.jpeg" alt="">
+                                              </a>
+                                          </div>
+                                          <h4>
+                                              <a href="#">বোমা পেতে রাখা ছিল রুশ বিমান টিত:Prime Minister</a></h4>
+                                      </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা</a></h4>
+
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা </a></h4>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="d-flex justify-content-end">
+                                    <a class="btn_custom_more text-center" href="#">আরও</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mb-sm-1">
+                     <div class="card bg-light h-100 border border-2">
+                        <div class="item item_1 img___box">
+                           <a href="#">
+                              <img class="image_1_3rd" src="./resources/img/ars.jpeg" alt="image_1" />
+                              <div class="text-block">
+                                 <h6 class="ps-2 pt-3 pb-2">
+                                    শিশুবিয়েতে বিশ্বের মধ্যে বাংলাদেশ অষ্টম
+                                 </h6>
+                              </div>
+                           </a>
+                           
+                        </div>
+                        <div class="item item_1 mt-2 img___box">
+                           <a href="#">
+                              <img class="image_1_3rd" src="./resources/img/thumb-5.jpeg" alt="image_1" />
+                              <div class="text-block">
+                                 <h6 class="ps-2 pt-3 pb-2">
+                                    শিশুবিয়েতে বিশ্বের মধ্যে বাংলাদেশ অষ্টম
+                                 </h6>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Second Section End -->
+         <!-- third Section start-->
+         <section class="third_section mb-0 p-0 mb-2" id="third_section_id">
+            <div class="container-fluid">
+               <div class="row gx-2">
+                  <!-- border border-1 bg__light -->
+                  <div class="col-sm-12 col-md-12 col-lg-9 "> 
+                     <div class="bg-light h-100 card-section_3_card "> 
+                        <div class="feature-story-block clearfix">
+                           <div class="feature-story-wrap clearfix">
+                               <div class="feature-preview">
+                                 <a href="#"><img src="images/img1.jpg" alt=""></a>
+                              </div>
+                               <div class="feature-story-info">
+                                   <h2><a href="#">সৌদির উৎপাদন কমানোর ঘোষণায় বাড়ল তেলের দাম</a></h2>
+
+                                   <p>বিশ্বের শীর্ষ জ্বালানি তেল উৎপাদনকারী দেশ সৌদি আরব উৎপাদন কমানোর সিদ্ধান্ত নেয়ার পর এশিয়ার বাজারে বেড়ে গেছে তেলের দাম। সোমবার এক প্রতিবেদনে এই তথ্য জানিয়েছে ব্রিটিশ সংবাদমাধ্যম বিবিসি। এতে বলা হয়, তেল উৎপাদনকারী দেশগুলোর জোট ওপেক প্লাসের সদস্য ও এর </p>
+                               </div>
+
+                           </div>
+                           <div class="feature-story-wrap clearfix">
+                              <div class="feature-preview">
+                                <a href="#"><img src="images/img1.jpg" alt=""></a>
+                             </div>
+                              <div class="feature-story-info">
+                                  <h2><a href="#">সৌদির উৎপাদন কমানোর ঘোষণায় বাড়ল তেলের দাম</a></h2>
+
+                                  <p>বিশ্বের শীর্ষ জ্বালানি তেল উৎপাদনকারী দেশ সৌদি আরব উৎপাদন কমানোর সিদ্ধান্ত নেয়ার পর এশিয়ার বাজারে বেড়ে গেছে তেলের দাম। সোমবার এক প্রতিবেদনে এই তথ্য জানিয়েছে ব্রিটিশ সংবাদমাধ্যম বিবিসি। এতে বলা হয়, তেল উৎপাদনকারী দেশগুলোর জোট ওপেক প্লাসের সদস্য ও এর </p>
+                              </div>
+
+                          </div>
+                          <div class="feature-story-wrap clearfix">
+                           <div class="feature-preview">
+                             <a href="#"><img src="images/img1.jpg" alt=""></a>
+                          </div>
+                           <div class="feature-story-info">
+                               <h2><a href="#">সৌদির উৎপাদন কমানোর ঘোষণায় বাড়ল তেলের দাম</a></h2>
+
+                               <p>বিশ্বের শীর্ষ জ্বালানি তেল উৎপাদনকারী দেশ সৌদি আরব উৎপাদন কমানোর সিদ্ধান্ত নেয়ার পর এশিয়ার বাজারে বেড়ে গেছে তেলের দাম। সোমবার এক প্রতিবেদনে এই তথ্য জানিয়েছে ব্রিটিশ সংবাদমাধ্যম বিবিসি। এতে বলা হয়, তেল উৎপাদনকারী দেশগুলোর জোট ওপেক প্লাসের সদস্য ও এর </p>
+                           </div>
+
+                       </div>
+                       </div>          
+                        <!-- <div class="row gx-0 my-sm-1">
+                           <div class="col-sm-12 col-md-3 col-lg-3 ">
+                              <div class=" img_box">
+                                 <a href=""><img src="./resources/img/third-1.jpeg" alt="" class="third_img w-100"></a>
+                              </div>
+                           </div>
+
+                           <div class="col-sm-12 col-md-9 col-lg-9 align-self-center">
+                              <a class="content_box" href="">
+                                 <h4>
+                                    রাজধানীতে সড়ক দুর্ঘটনায় স্কুলছাত্রের মৃত্যু</h4>
+                                    <p class="description">রাজধানীর মুগদার মান্ডা এলাকায় মোটরসাইকেল দুর্ঘটনায় শাওন (১৬) নামে এক স্কুলছাত্র নিহত হয়েছে। সে স্থানীয় একটি স্কুলে নবম শ্রেনীতে পড়তো। শুক্রবার বেলা ৩টার দিকে মান্ডা এলাকায় এ দুর্ঘটনা ঘটে। মুমুর্ষ অবস্থায় পথচারীরা ঢাকা মেডিকেল কলেজ হাসপাতালে নিয়ে আসলে চিকিৎসক বিকেল</p>
+                              </a>
+                             
+                           </div>
+                        </div>
+                        <div class="row gx-0 my-sm-1" style="margin:15px 0!important">
+                           <div class="col-sm-12 col-md-3 col-lg-3 ">
+                              <div class=" img_box">
+                                 <a href=""><img src="./resources/img/third-1.jpeg" alt="" class="third_img w-100"></a>
+                              </div>
+                           </div>
+
+                           <div class="col-sm-12 col-md-9 col-lg-9 align-self-center">
+                              <a class="content_box" href="">
+                                 <h4>
+                                    রাজধানীতে সড়ক দুর্ঘটনায় স্কুলছাত্রের মৃত্যু</h4>
+                                    <p class="description">রাজধানীর মুগদার মান্ডা এলাকায় মোটরসাইকেল দুর্ঘটনায় শাওন (১৬) নামে এক স্কুলছাত্র নিহত হয়েছে। সে স্থানীয় একটি স্কুলে নবম শ্রেনীতে পড়তো। শুক্রবার বেলা ৩টার দিকে মান্ডা এলাকায় এ দুর্ঘটনা ঘটে। মুমুর্ষ অবস্থায় পথচারীরা ঢাকা মেডিকেল কলেজ হাসপাতালে নিয়ে আসলে চিকিৎসক বিকেল</p>
+                              </a>
+                             
+                           </div>
+                        </div>
+                        <div class="row gx-0 my-sm-1">
+                           <div class="col-sm-12 col-md-3 col-lg-3 ">
+                              <div class=" img_box">
+                                 <a href=""><img src="./resources/img/third-1.jpeg" alt="" class="third_img w-100"></a>
+                              </div>
+                           </div>
+
+                           <div class="col-sm-12 col-md-9 col-lg-9 align-self-center">
+                              <a class="content_box" href="">
+                                 <h4>
+                                    রাজধানীতে সড়ক দুর্ঘটনায় স্কুলছাত্রের মৃত্যু</h4>
+                                    <p class="description">রাজধানীর মুগদার মান্ডা এলাকায় মোটরসাইকেল দুর্ঘটনায় শাওন (১৬) নামে এক স্কুলছাত্র নিহত হয়েছে। সে স্থানীয় একটি স্কুলে নবম শ্রেনীতে পড়তো। শুক্রবার বেলা ৩টার দিকে মান্ডা এলাকায় এ দুর্ঘটনা ঘটে। মুমুর্ষ অবস্থায় পথচারীরা ঢাকা মেডিকেল কলেজ হাসপাতালে নিয়ে আসলে চিকিৎসক বিকেল দুর্ঘটনায় শাওন (১৬) নামে এক স্কুলছাত্র নিহত হয়েছে। সে স্থানীয় একটি স্কুলে নবম শ্রেনীতে পড়তো। শুক্রবার বেলা ৩টার দিকে মান্ডা এলাকায় এ দুর্ঘটনা ঘটে। মুমুর্ষ অবস্থায় পথচারীরা ঢাকা মেডিকেল কলেজ হাসপাতালে নিয়ে আসলে চিকিৎসক বিকেলদুর্ঘটনায় শাওন (১৬) নামে এক স্কুলছাত্র নিহত হয়েছে। সে স্থানীয় একটি স্কুলে নবম শ্রেনীতে পড়তো। শুক্রবার বেলা ৩টার দিকে মান্ডা এলাকায় এ দুর্ঘটনা ঘটে। মুমুর্ষ অবস্থায় পথচারীরা ঢাকা মেডিকেল কলেজ হাসপাতালে নিয়ে আসলে চিকিৎসক বিকেলদুর্ঘটনায় শাওন (১৬) নামে এক স্কুলছাত্র নিহত হয়েছে। সে স্থানীয় একটি স্কুলে নবম শ্রেনীতে পড়তো। শুক্রবার বেলা ৩টার দিকে মান্ডা এলাকায় এ দুর্ঘটনা ঘটে। মুমুর্ষ অবস্থায় পথচারীরা ঢাকা মেডিকেল কলেজ হাসপাতালে নিয়ে আসলে চিকিৎসক বিকেলদুর্ঘটনায় শাওন (১৬) নামে এক স্কুলছাত্র নিহত হয়েছে। সে স্থানীয় একটি স্কুলে নবম শ্রেনীতে পড়তো। শুক্রবার বেলা ৩টার দিকে মান্ডা এলাকায় এ দুর্ঘটনা ঘটে। মুমুর্ষ অবস্থায় পথচারীরা ঢাকা মেডিকেল কলেজ হাসপাতালে নিয়ে আসলে চিকিৎসক বিকেলদুর্ঘটনায় শাওন (১৬) নামে এক স্কুলছাত্র নিহত হয়েছে। সে স্থানীয় একটি স্কুলে নবম শ্রেনীতে পড়তো। শুক্রবার বেলা ৩টার দিকে মান্ডা এলাকায় এ দুর্ঘটনা ঘটে। মুমুর্ষ অবস্থায় পথচারীরা ঢাকা মেডিকেল কলেজ হাসপাতালে নিয়ে আসলে চিকিৎসক বিকেল</p>
+                              </a>
+                             
+                           </div>
+                        </div> -->
+                     </div>
+                  </div>
+
+                  <div class="bg-light col-sm-12 col-md-12 col-lg-3 border border-2">
+                        <p class="mt-1 text-white fw-bold mb-0 special_news pt-2 pb-2 d-flex justify-content-center align-content-center ">
+                          <a href="" class="text-light">বিশেষ সংবাদ</a>
+                        </p>
+
+                        <div class="news__box">
+                           <ul class="list-title-block">
+                              <li>
+                                 <div class="list-preview">
+                                     <a href="#">
+                                         <img src="./resources/img/thumb-6.jpeg" alt="">
+                                     </a>
+                                 </div>
+                                 <h4>
+                                     <a href="#">বোমা পেতে রাখা ছিল রুশ বিমান টিত:Prime Minister</a></h4>
+                             </li>
+                              <li>
+                                 <div class="list-preview">
+                                    <a href="">
+                                       <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                    </a>
+                                 </div>
+                                 <h4>
+                                    <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+
+                              </li>
+                              <li>
+                                 <div class="list-preview">
+                                    <a href="">
+                                       <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                    </a>
+                                 </div>
+                                 <h4>
+                                    <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+
+                              </li>
+                              <li>
+                                 <div class="list-preview">
+                                    <a href="">
+                                       <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                    </a>
+                                 </div>
+                                 <h4>
+                                    <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা</a></h4>
+
+                              </li>
+                              <li>
+                                 <div class="list-preview">
+                                    <a href="">
+                                       <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                    </a>
+                                 </div>
+                                 <h4>
+                                    <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা </a></h4>
+
+                              </li>
+                           </ul>
+                           <div class="d-flex justify-content-end mb-1">
+                              <a class="btn_custom_more text-center" href="#">আরও</a>
+                           </div>
+                        </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- third Section end -->
+         <!-- Fourth Section start-->
+         <section class="fourth_section" id="fourth_section_id">
+            <div class="container-fluid">
+               <div class="row g-1">
+                  <div class="col-sm-12 col-md-9 col-lg-9 mb-3">
+                     <div class="row g-1" style="margin-top: -5px;">                          
+                              <!-- Single News -->
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    সার্টিফিকেট পোড়ানো তরুণীকে চাকরি দিলেন আইসিটি প্রতিমন্ত্রী
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আরোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    সার্টিফিকেট পোড়ানো তরুণীকে চাকরি দিলেন আইসিটি প্রতিমন্ত্রী
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-2">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    সার্টিফিকেট পোড়ানো তরুণীকে চাকরি দিলেন আইসিটি প্রতিমন্ত্রী
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আরোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আরোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আরোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-2">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আরোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আরোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আরোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-1">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আরোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mb-sm-2 news_box">
+                                 <a href="#" class="me-2">
+                                    <img src="./resources/img/news-2.jpeg" class=" card-img-top rounded-bottom" alt="section_4_img">
+                                 </a>
+                                 <a href="#">
+                                    চাঁদপুরে-মোটরসাইকেল-আ-২-বন্ধুররোহী-২-বন্ধুর-মৃত্যু
+                                 </a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- for add -->
+                  <div class="mb-3 p-1 col-sm-12 col-md-3 col-lg-3 border border-2">
+                        <a href="#">
+                        <img src="https://www.fns24.com/resources/bangla_converter.jpg" class="w-100" alt="section_4_img">
+                        </a>
+                        <a href="#">
+                           <img src="./resources/img/all_news_paper.jpg" class="w-100" alt="section_4_img">
+                        </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Fourth Section end -->
+     
+         <!-- Fifth Section start-->
+         <section class="Fifth_section" id="seventh_section_id">
+            <div class="container-fluid">
+               <div class="row g-1">
+                  <div class="col-sm-12 col-md-9 col-lg-9">
+                     <a href="#">
+                        <h6 class="pt-2 me-1 fw-bold pb-1 ps-2 mb-1 text-white seventh_section_header" style="border: 1px solid #000;">
+                           বিনোদন 
+                        </h6>
+                     </a>
+                     <div class="entertainment_news_box">
+                        <div class="row g-1">
+                           <div class="col-sm-12 col-md-8 col-lg-8 h-100">
+                              <div class="card border border-2 me-1 bg-light">
+                                 <div class="item item_1">
+                                    <a href="#">
+                                    <img class="image_1_7th w-100" 
+                                       src="./resources/img/enter-1.jpeg" alt="image_1" />
+                                    </a>
+                                    <div class="text-block">
+                                       <a href="#" class="text-white">
+                                          <h5 class="fw-bold ps-2 pt-3 pb-2 hover_red">
+                                             ১০ বছরের পুরোনো স্মৃতিমধুর ইত্যাদি আজ
+                                          </h5>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-12 col-md-4 col-lg-4">
+                              <div class="card me-1 border border-2 bg-light">
+                            
+                                 <div class="news__box">
+                                    <ul class="list-title-block p-0">
+                                       <li class="p-0">
+                                          <div class="list-preview">
+                                              <a href="#">
+                                                  <img src="./resources/img/thumb-6.jpeg" alt="">
+                                              </a>
+                                          </div>
+                                          <h4>
+                                              <a href="#">বোমা পেতে রাখা ছিল রুশ বিমান টিত:Prime Minister</a></h4>
+                                      </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ বোমা পেতে রাখা ছিল রুশ বিমান টিত রাখা</a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  বোমা পেতে রাখা ছিল রুশ বিমান টিতবোমা পেতে রাখা ছিল রুশ বিমান টিতরাখা </a></h4>
+                                 
+                                       </li>
+                                    </ul>
+                                    <div class="d-flex justify-content-end" >
+                                       <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">আরও</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-3 col-lg-3 bg-light">
+                     <a href="#">
+                        <h6 class="pt-2 fw-bold pb-1 ps-2 mb-1 text-white seventh_section_header" style="border: 1px solid #000;">
+                           লাইফস্টাইল  
+                        </h6>
+                     </a>
+                     <div class="m-0 card bg-light border border-2 h-auto">
+                        <div class="item item_1">
+                           <a href="#">
+                           <img class="image_1_3rd_7th w-100" 
+                              src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/294629_image_url_05-.jpg&h=197&w=304&zc=1" alt="image_1" />
+                           </a>
+                           <div class="text-block">
+                              <a href="#" class="text-white">
+                                 <h6 class="ps-2 pt-3 pb-2">
+                                    শিশুবিয়েতে বিশ্বের মধ্যে বাংলাদেশ অষ্টম
+                                 </h6>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="item item_1 mt-1 w-100">
+                           <a href="#">
+                           <img class="image_1_3rd_7th" 
+                              src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/294629_image_url_05-.jpg&h=197&w=304&zc=1" alt="image_1" />
+                           </a>
+                           <div class="text-block">
+                              <a href="#" class="text-white">
+                                 <h6 class="ps-2 pt-3 pb-2">
+                                    শিশুবিয়েতে বিশ্বের মধ্যে বাংলাদেশ অষ্টম
+                                 </h6>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Fifth Section end -->
+         <!-- Sixth Section start-->
+         <section id="sixth_section" class="first_section eigth_section">
+            <div class="container-fluid">
+               <div class="row gx-1">
+                  <div class="col-sm-12 col-md-6 col-lg-3 my-1 h-100">
+                     <div class="card bg-light border border-2">
+                        <a href="#" class="p-1">
+                           <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                              বাংলাদেশ  
+                           </h6>
+                        </a>
+                        <a class="ps-1 pe-1" href="#">
+                           <img 
+                           src="./resources/img/relagion.jpeg" class="w-100" alt="8th_section_img">
+                        </a>
+                        
+                        <div class="p-1"> <a href="#" class="text-dark"> <h6 class="fw-bold border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </h6> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> 
+                           <div class="d-flex justify-content-end" >
+                              <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">
+                                 আরও
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3 h-100 my-1">
+                     <div class="card bg-light border border-2">
+                        <a href="#" class="p-1">
+                           <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                              বাংলাদেশ  
+                           </h6>
+                        </a>
+                        <a class="ps-1 pe-1" href="#"><img 
+                           src="./resources/img/relagion.jpeg" class="w-100" alt="8th_section_img"></a>
+                        
+                        <div class="p-1"> <a href="#" class="text-dark"> <h6 class="fw-bold border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </h6> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> 
+                           <div class="d-flex justify-content-end" >
+                              <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">
+                                 আরও
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3 h-100 my-1">
+                     <div class="card bg-light border border-2">
+                        <a href="#" class="p-1">
+                           <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                              বাংলাদেশ  
+                           </h6>
+                        </a>
+                        <a class="ps-1 pe-1" href="#"><img 
+                           src="./resources/img/relagion.jpeg" class="w-100" alt="8th_section_img"></a>
+                        
+                        <div class="p-1"> <a href="#" class="text-dark"> <h6 class="fw-bold border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </h6> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> 
+                           <div class="d-flex justify-content-end" >
+                              <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">
+                                 আরও
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class=" col-sm-12 col-md-6 col-lg-3 my-1 h-100 bg-light">
+                     <div class="card tab_card ps-0 pe-0 w-100 bg-light border border-2">
+                          <div class="tab_buttons w-100">
+                           <div class="pt-1 ps-1 nav w-100 nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                              <button class="ps-3 pe-3 btn_custom" id="v-pills-__max-tab" data-bs-toggle="pill" data-bs-target="#v-pills-__max" type="button" role="tab" aria-controls="v-pills-__max" aria-selected="false">
+                                 <span class="w-100">সর্বাধিক (2) </span>
+                              </button>
+     
+                              <button class="ps-3 pe-3 btn_custom" id="v-pills-__latest-tab" data-bs-toggle="pill" data-bs-target="#v-pills-__latest" type="button" role="tab" aria-controls="v-pills-__latest" aria-selected="false">
+                                 <span class="w-100">সর্বশেষ (2) </span>
+                              </button>
+                 
+                           </div>
+                        </div>
+                      
+                        <div class="tab-content">
+                           <div class="tab-content w-100 h-100" id="v-pills-tabContent">
+                              <div class="tab-pane fade show active" id="v-pills-__max" role="tabpanel" aria-labelledby="v-pills-max-tab">
+                                 <div class="news__box">
+                                    <ul class="list-title-block">
+                                       <li>
+                                          <div class="list-preview">
+                                              <a href="#">
+                                                  <img src="./resources/img/thumb-6.jpeg" alt="">
+                                              </a>
+                                          </div>
+                                          <h4>
+                                              <a href="#">বোমা পেতে রাখা ছিল রুশ বিমান টিত:Prime Minister</a></h4>
+                                      </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ খা ছিল রুশ  রাখা ছিল রুশ রাখা</a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশখা ছিল রুশ  রাখা ছিল রুশ রাখা </a></h4>
+                                 
+                                       </li>
+                                    </ul>
+                                    <div class="d-flex justify-content-end" >
+                                       <a class="btn_custom_more text-center" style="margin-top: 40px;" href="#">
+                                          আরও
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade  " id="v-pills-__latest" role="tabpanel" aria-labelledby="v-pills-latest-tab">
+                                 <div class="news__box">
+                                    <ul class="list-title-block">
+                                       <li>
+                                          <div class="list-preview">
+                                              <a href="#">
+                                                  <img src="./resources/img/thumb-6.jpeg" alt="">
+                                              </a>
+                                          </div>
+                                          <h4>
+                                              <a href="#">বোমা পেতে রাখা ছিল রুশ বিমান টিত:Prime Minister</a></h4>
+                                      </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা</a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা </a></h4>
+                                 
+                                       </li>
+                                    </ul>
+                                    <div class="d-flex justify-content-end" >
+                                       <a class="btn_custom_more text-center" style="margin-top: 40px;" href="#">
+                                          আরও
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                      
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Sixth Section End-->
+         <!-- Seventh Section start-->
+         <section class="sports_section" id="sports_section_id">
+            <div class="container-fluid">
+               <div class="row g-1">
+                  <div class="col-sm-12 col-md-9 col-lg-9 mb-3">
+                     <a class="" href="#">
+                        <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header hover_red" style="border: 1px solid #000;">
+                           খেলা 
+                        </h6>
+                     </a>
+                     <div class="entertainment_news_box mt-1">
+                        <div class="row g-1">
+                           <div class="col-sm-12 col-md-8 col-lg-8 bg-light">
+                              <div class="card border border-2 bg-light">
+                                 <div class="item item_1">
+                                    <a href="#">
+                                    <img class="image_1_7th w-100" 
+                                       src="./resources/img/sports-1.jpeg" alt="image_1" />
+                                    </a>
+                                    <div class="text-block">
+                                       <a href="#" class="text-white">
+                                          <h5 class="fw-bold ps-2 pt-3 pb-2 hover_red">
+                                             অবশেষে হেরেই গেল বাংলাদেশ
+                                          </h5>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-12 col-md-4 col-lg-4">
+                              <div class="card border border-2 bg-light">
+                                 <div class="news__box">
+                                    <ul class="list-title-block p-0">
+                                       <li class="p-0">
+                                          <div class="list-preview">
+                                              <a href="#">
+                                                  <img src="./resources/img/thumb-6.jpeg" alt="">
+                                              </a>
+                                          </div>
+                                          <h4>
+                                              <a href="#">বোমা পেতে রাখা ছিল রুশ বিমান টিত:Prime Minister</a></h4>
+                                      </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ  রাখা ছিল রুশ </a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ বোমা পেতে রাখা ছিল রুশ বিমান টিত রাখা</a></h4>
+                                 
+                                       </li>
+                                       <li>
+                                          <div class="list-preview">
+                                             <a href="">
+                                                <img class=" tab_image" src="./resources/img/thumb-6.jpeg" alt="tab_image">
+                                             </a>
+                                          </div>
+                                          <h4>
+                                             <a href="#">বোমা পেতে রাখা ছিল রুশ  বোমা পেতে রাখা ছিল রুশ বিমান টিতবোমা পেতে রাখা ছিল রুশ বিমান টিতরাখা </a></h4>
+                                 
+                                       </li>
+                                    </ul>
+                                    <div class="d-flex justify-content-end" >
+                                       <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">আরও</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-3 col-lg-3 mb-3 bg-light">
+                     <a href="#">
+                        <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header hover_red" style="border: 1px solid #000;">
+                           প্রযুক্তি  
+                        </h6>
+                     </a>
+                     <div class="card mt-1 bg-light border border-2">
+                        <div class="item item_1">
+                           <a href="#">
+                           <img class="image_1_3rd_7th" 
+                              src="./resources/img/tech-1.jpeg" alt="image_1" />
+                           </a>
+                           <div class="text-block">
+                              <a href="#" class="text-white">
+                                 <h6 class="ps-2 pt-3 pb-2">
+                                    অডিও-ভিডিও কল করা যাবে টুইটারে
+                                 </h6>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="item item_1 mt-1">
+                           <a href="#">
+                           <img class="image_1_3rd_7th" 
+                              src="./resources/img/tech-2.jpeg" alt="image_1" />
+                           </a>
+                           <div class="text-block">
+                              <a href="#" class="text-white">
+                                 <h6 class="ps-2 pt-3 pb-2">
+                                    কৃত্রিম বুদ্ধিমত্তার দিকে এগিয়ে যাচ্ছে গুগল
+                                 </h6>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Seventh Section end -->
+         <!-- Eighth Section start-->
+         <section class="eighth_section" id="tenth_section_id">
+            <div class="container-fluid">
+               <div class="row gx-0">
+                  <div class="col-sm-12 col-md-9 col-lg-9 mb-sm-1">
+                     <div class="left_side">
+                        <div class="row g-1">
+                           <div class="col-sm-12 col-md-4 col-lg-4">
+                              <div class="card border border-2 bg-light h-100 mb-0" style="max-width: 100%;">
+                                 <a href="#">
+                                    <h6 
+                                       class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" 
+                                       style="border: 1px solid #000;">
+                                       ঢাকার বাইরে
+                                    </h6>
+                                 </a>
+                                 <div class="row p-0 g-0 border--bottom">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 section_3_row">
+                                       <a href="#" class="">
+                                       <img src="https://www.fns24.com/resources/images/gallery/2023_05_05_3825_FNS_MofossolPhoto030523_03.jpg" class="img-fluid mb-0 p-0" alt="section_2_1st">
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <a href="#">
+                                    <h6 
+                                       class="pt-2 mt-1 fw-bold pb-1 ps-2 text-white seventh_section_header" 
+                                       style="border: 1px solid #000;">
+                                       ফিচার
+                                    </h6>
+                                 </a>
+                                 <div class="row p-0 g-0">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 section_3_row">
+                                       <a href="#" class="">
+                                       <img src="https://www.fns24.com/resources/images/gallery/2023_05_05_3825_FNS_MofossolPhoto030523_03.jpg" class="img-fluid mb-0 p-0" alt="section_2_1st">
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-sm-12 col-md-8 col-lg-8">
+                              <div class="card border border-2 bg-light me-1 h-100">
+                                 <a href="#">
+                                    <h6 
+                                       class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" 
+                                       style="border: 1px solid #000;">
+                                       গ্যালারি
+                                    </h6>
+                                 </a>
+                                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                       <div class="carousel-item active">
+                                          <img 
+                                             src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/gallery/2023_05_02_3822_FNS_NationalPhoto300423_48.jpg&h=375&w=610&zc=1" 
+                                             class="d-block w-100" 
+                                             alt="...">
+                                          <div class="h-100 mt-3 p-1">
+                                             <a href="#" class="text-dark">
+                                                <p>
+                                                   শুভ বুদ্ধপূর্ণিমা উপলক্ষে বুধবার গুলশান চেয়ারপার্সন অফিসে বিএনপি ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান-এর সাথে বৌদ্ধ সম্প্রদায়ের শুভেচ্ছা বিনিময় অনুষ্ঠানে তাঁর পক্ষে ফুলেল শুভেচ্ছা গ্রহণ করেন দলের মহাসচিব মির্জা ফখরুল ইসলাম আলমগীর -এফএনএস
+                                                </p>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="carousel-item">
+                                          <img 
+                                             src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/gallery/2023_05_05_3826_FNS_NationalPhoto030523_26.jpg&h=375&w=610&zc=1" 
+                                             class="d-block w-100" 
+                                             alt="...">
+                                          <div class="h-100 p-1">
+                                             <a href="#" class="text-dark">
+                                                <p>
+                                                   শুভ বুদ্ধপূর্ণিমা উপলক্ষে বুধবার গুলশান চেয়ারপার্সন অফিসে বিএনপি ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান-এর সাথে বৌদ্ধ সম্প্রদায়ের শুভেচ্ছা বিনিময় অনুষ্ঠানে তাঁর পক্ষে ফুলেল শুভেচ্ছা গ্রহণ করেন দলের মহাসচিব মির্জা ফখরুল ইসলাম আলমগীর -এফএনএস
+                                                </p>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="carousel-item">
+                                          <img 
+                                             src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/gallery/2023_05_05_3826_FNS_NationalPhoto030523_20.jpg&h=375&w=610&zc=1" 
+                                             class="d-block w-100" 
+                                             alt="...">
+                                          <div class="h-100 p-1">
+                                             <a href="#" class="text-dark">
+                                                <p>
+                                                   শুভ বুদ্ধপূর্ণিমা উপলক্ষে বুধবার গুলশান চেয়ারপার্সন অফিসে বিএনপি ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান-এর সাথে বৌদ্ধ সম্প্রদায়ের শুভেচ্ছা বিনিময় অনুষ্ঠানে তাঁর পক্ষে ফুলেল শুভেচ্ছা গ্রহণ করেন দলের মহাসচিব মির্জা ফখরুল ইসলাম আলমগীর -এফএনএস
+                                                </p>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="carousel-item">
+                                          <img 
+                                             src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/gallery/2023_05_05_3826_FNS_NationalPhoto030523_11.jpg&h=375&w=610&zc=1" 
+                                             class="d-block w-100" 
+                                             alt="...">
+                                          <div class="h-100 mt-3 p-1">
+                                             <a href="#" class="text-dark">
+                                                <p>
+                                                   শুভ বুদ্ধপূর্ণিমা উপলক্ষে বুধবার গুলশান চেয়ারপার্সন অফিসে বিএনপি ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান-এর সাথে বৌদ্ধ সম্প্রদায়ের শুভেচ্ছা বিনিময় অনুষ্ঠানে তাঁর পক্ষে ফুলেল শুভেচ্ছা গ্রহণ করেন দলের মহাসচিব মির্জা ফখরুল ইসলাম আলমগীর-এফএনএস
+                                                </p>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="carousel-item">
+                                          <img 
+                                             src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/gallery/2023_05_05_3825_FNS_MofossolPhoto030523_04.jpg&h=375&w=610&zc=1" 
+                                             class="d-block w-100" 
+                                             alt="...">
+                                          <div class="h-100 mt-3 p-1">
+                                             <a href="#" class="text-dark">
+                                                <p>
+                                                   শুভ বুদ্ধপূর্ণিমা উপলক্ষে বুধবার গুলশান চেয়ারপার্সন অফিসে বিএনপি ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান-এর সাথে বৌদ্ধ সম্প্রদায়ের শুভেচ্ছা বিনিময় অনুষ্ঠানে তাঁর পক্ষে ফুলেল শুভেচ্ছা গ্রহণ করেন দলের মহাসচিব মির্জা ফখরুল ইসলাম আলমগীর -এফএনএস
+                                                </p>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="carousel-item">
+                                          <img 
+                                             src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/gallery/2023_05_03_3824_FNS_NationalPhoto020523_24.jpg&h=375&w=610&zc=1" 
+                                             class="d-block w-100" 
+                                             alt="...">
+                                          <div class="h-100 mt-3 p-1">
+                                             <a href="#" class="text-dark">
+                                                <p>
+                                                   শুভ বুদ্ধপূর্ণিমা উপলক্ষে বুধবার গুলশান চেয়ারপার্সন অফিসে বিএনপি ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান-এর সাথে বৌদ্ধ সম্প্রদায়ের শুভেচ্ছা বিনিময় অনুষ্ঠানে তাঁর পক্ষে ফুলেল শুভেচ্ছা গ্রহণ করেন দলের মহাসচিব মির্জা ফখরুল ইসলাম আলমগীর -এফএনএস
+                                                </p>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="carousel-item">
+                                          <img 
+                                             src="https://www.fns24.com/includes/3rdParty/timthumb.php?src=https://www.fns24.com/resources/images/gallery/2023_05_03_3824_FNS_NationalPhoto020523_09.jpg&h=375&w=610&zc=1" 
+                                             class="d-block w-100" 
+                                             alt="...">
+                                          <div class="h-100 mt-3 p-1">
+                                             <a href="#" class="text-dark">
+                                                <p>
+                                                   শুভ বুদ্ধপূর্ণিমা উপলক্ষে বুধবার গুলশান চেয়ারপার্সন অফিসে বিএনপি ভারপ্রাপ্ত চেয়ারম্যান তারেক রহমান-এর সাথে বৌদ্ধ সম্প্রদায়ের শুভেচ্ছা বিনিময় অনুষ্ঠানে তাঁর পক্ষে ফুলেল শুভেচ্ছা গ্রহণ করেন দলের মহাসচিব মির্জা ফখরুল ইসলাম আলমগীর -এফএনএস
+                                                </p>
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-3 col-lg-3 mb-sm-1">
+                     <div class="card ms-1 w-100 h-100 bg-light border border-2">
+                            <!-- Fb Widget -->
+                            <div class="fb_widget w-100">
+                              <div class="fb-block">
+                                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFns24%2F&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=47111295515" style="border:none; overflow:hidden; width:100%; border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media" class="text-center w-1
+                                  00 fb_widget_iframe"></iframe>
+                             </div>
+                          </div>
+                           <!-- Fb Widget End-->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Eighth Section end -->
+         <!-- Nineth Section start-->
+         <section id="nineth_section" class="first_section eigth_section">
+            <div class="container-fluid">
+               <div class="row gx-1">
+                  <div class="col-sm-12 col-md-6 col-lg-3 my-1 h-100">
+                     <div class="card bg-light border border-2">
+                        <a href="#" class="p-1">
+                           <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                              বাংলাদেশ  
+                           </h6>
+                        </a>
+                        <a class="ps-1 pe-1" href="#">
+                           <img 
+                           src="./resources/img/relagion.jpeg" class="w-100" alt="8th_section_img">
+                        </a>
+                        
+                        <div class="p-1"> <a href="#" class="text-dark"> <h6 class="fw-bold border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </h6> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> 
+                           <div class="d-flex justify-content-end" >
+                              <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">
+                                 আরও
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3 h-100 my-1">
+                     <div class="card bg-light border border-2">
+                        <a href="#" class="p-1">
+                           <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                              বাংলাদেশ  
+                           </h6>
+                        </a>
+                        <a class="ps-1 pe-1" href="#"><img 
+                           src="./resources/img/relagion.jpeg" class="w-100" alt="8th_section_img"></a>
+                        
+                        <div class="p-1"> <a href="#" class="text-dark"> <h6 class="fw-bold border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </h6> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> 
+                           <div class="d-flex justify-content-end" >
+                              <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">
+                                 আরও
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3 h-100 my-1">
+                     <div class="card bg-light border border-2">
+                        <a href="#" class="p-1">
+                           <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                              বাংলাদেশ  
+                           </h6>
+                        </a>
+                        <a class="ps-1 pe-1" href="#"><img 
+                           src="./resources/img/relagion.jpeg" class="w-100" alt="8th_section_img"></a>
+                        
+                        <div class="p-1"> <a href="#" class="text-dark"> <h6 class="fw-bold border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </h6> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> 
+                           <div class="d-flex justify-content-end" >
+                              <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">
+                                 আরও
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-3 h-100 my-1">
+                     <div class="card bg-light border border-2">
+                        <a href="#" class="p-1">
+                           <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                              বাংলাদেশ  
+                           </h6>
+                        </a>
+                        <a class="ps-1 pe-1" href="#"><img 
+                           src="./resources/img/relagion.jpeg" class="w-100" alt="8th_section_img"></a>
+                        
+                        <div class="p-1"> <a href="#" class="text-dark"> <h6 class="fw-bold border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </h6> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize border-bottom pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> <a href="#" class="text-dark"> <p class="general_fontSize pb-2"> রাজধানীতে জাল সার্টিফিকেট তৈরির কারখানা! </p> </a> 
+                           <div class="d-flex justify-content-end" >
+                              <a class="btn_custom_more text-center " style="margin-top: 40px;" href="#">
+                                 আরও
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Nineth Section End-->
+         <!-- tenth Section start-->
+         <section class="tenth_section mt-0" id="twelveth_section_id">
+            <div class="container-fluid">
+               <div class="row g-1">
+                  <div class="col-sm-12 col-md-9 col-lg-9">
+                     <div class="card bg-light p-1 border border-2">
+                        <a href="#">
+                           <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                              Video গ্যালারি
+                           </h6>
+                        </a>
+                        <div class="video_slider_box text-center">
+                           <div style="display:none;margin:0 auto;" class="html5gallery" data-skin="light" data-width="480" data-height="272" data-resizemode="fill">
+                              <a href="http://www.youtube.com/embed/YE7VzlLtp-4">
+                                 <img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video">
+                              </a>
+                          
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              <a href="https://youtu.be/o_X6bld57qo">
+                                 <img src="./resources/img/8th-1.jpeg" alt="Youtube Video">
+                              </a>
+                              
+            
+
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="col-sm-12 col-md-3 col-lg-3 archive">
+                     <a href="#">
+                        <h6 class="pt-2 fw-bold pb-1 ps-2 text-white seventh_section_header" style="border: 1px solid #000;">
+                           আর্কাইভ
+                        </h6>
+                     </a>
+                     <div class="card bg-light">
+                        <div class="panel-body">
+                           <style>
+                           #day_names{background:#ccc; border: 1px solid #eee; color:#000;}
+                           .calendar_modern .calendar {
+                             margin: auto;
+                             width: 100%;
+                             height: 270px;
+                           }
+                           .calendar_modern .calendar .nav {
+                             height: 0;
+                             position: relative;
+                           }
+                           .calendar_modern .calendar .nav i, .calendar_modern .calendar .nav b {
+                             display: block;
+                             font-style: normal;
+                             position: absolute;
+                             cursor: pointer;
+                             width: 45px;
+                             height: 40px;
+                             z-index: 100;
+                             top: 0;
+                           }
+                           .calendar_modern .calendar .nav i {
+                             left: 0;
+                             border-right: 1px solid #423a37;
+                             background: url(lft.png) no-repeat center center transparent;
+                           }
+                           .calendar_modern .calendar .nav b {
+                             right: 0;
+                             border-left: 1px solid #423a37;
+                             background: url(rgt.png) no-repeat center center transparent; 
+                           }
+                           .calendar_modern .calendar .month .header {
+                             height: 40px;
+                             position: relative;
+                            
+                             color: white;
+                             line-height: 40px;
+                             font-weight: bold;
+                             font-size: 1.4em;
+                             text-align: center;
+                             background: #372f2c;
+                             border-radius: 3px;
+                           }
+                           .calendar_modern .calendar .month .body {
+                             background: #e4e4e4;
+                           }
+                           .calendar_modern .calendar .month .body .day_names {
+                             height: 25px;
+                           }
+                           .calendar_modern .calendar .month .body .day_names i {
+                             display: block;
+                             height: 25px;
+                             line-height: 25px;
+                             text-align: center;
+                             font-style: normal;
+                             float: left;
+                             width: 34px;
+                           }
+                           .calendar_modern .calendar .month .body .days i, .calendar_modern .calendar .month .body .days b, .calendar_modern .calendar .month .body .days s, .calendar_modern .calendar .month .body .days a {
+                            
+                             display: block;
+                             float: left;
+                             width: 36px;
+                             height: 35px;
+                             color: #8d8d8d;
+                             font-size: 14px;
+                             font-weight: bold;
+                             line-height: 35px;
+                             text-align: center;
+                             font-style: normal;
+                             background: #e4e4e4;
+                             text-decoration: none;
+                             /* table like borders */
+                             border-right: 1px solid #aaaaaa;
+                             border-bottom: 1px solid #aaaaaa;
+                             /* table like borders */
+                           }
+                           .calendar_modern .calendar .month .body .days i.weekend, .calendar_modern .calendar .month .body .days b.weekend, .calendar_modern .calendar .month .body .days s.weekend, .calendar_modern .calendar .month .body .days a.weekend {
+                             color: #444;
+                             background: InactiveCaption;
+                           }
+                           .calendar_modern .calendar .month .body .days i:nth-child(7n + 1), .calendar_modern .calendar .month .body .days b:nth-child(7n + 1), .calendar_modern .calendar .month .body .days s:nth-child(7n + 1), .calendar_modern .calendar .month .body .days a:nth-child(7n + 1) {
+                             border-left: 1px solid #aaaaaa;
+                           }
+                           .calendar_modern .calendar .month .body .days i:nth-child(n+1):nth-child(-n+7), .calendar_modern .calendar .month .body .days b:nth-child(n+1):nth-child(-n+7), .calendar_modern .calendar .month .body .days s:nth-child(n+1):nth-child(-n+7), .calendar_modern .calendar .month .body .days a:nth-child(n+1):nth-child(-n+7) {
+                             border-top: 1px solid #aaaaaa;
+                           }
+                           .calendar_modern .calendar .month .body .days i:nth-child(n+1):nth-child(-n+7).empty, .calendar_modern .calendar .month .body .days b:nth-child(n+1):nth-child(-n+7).empty, .calendar_modern .calendar .month .body .days s:nth-child(n+1):nth-child(-n+7).empty, .calendar_modern .calendar .month .body .days a:nth-child(n+1):nth-child(-n+7).empty {
+                             border-top: 1px solid #d5d5d5;
+                             border-bottom: 1px solid #aaaaaa;
+                           }
+                           .calendar_modern .calendar .month .body .days s:nth-child(7n + 1) {
+                             border-left: 1px solid #d5d5d5;
+                           }
+                           .calendar_modern .calendar .month .body .days a {
+                             color: #372f2d;
+                             background: #d1d1d1;
+                             text-shadow: 1px 1px 0px white;
+                             background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #dadada), color-stop(100%, #cfcfcf));
+                             background-image: -webkit-linear-gradient(bottom, #dadada, #cfcfcf);
+                             background-image: -moz-linear-gradient(bottom, #dadada, #cfcfcf);
+                             background-image: -o-linear-gradient(bottom, #dadada, #cfcfcf);
+                             background-image: linear-gradient(bottom, #dadada, #cfcfcf);
+                           }
+                           .calendar_modern .calendar .month .body .days a.today {
+                             color: white;
+                             text-shadow: 1px 1px 2px #047d18;
+                             -webkit-box-shadow: 0 0 18px #047d18 inset;
+                             -moz-box-shadow: 0 0 18px #047d18 inset;
+                             box-shadow: 0 0 18px #047d18 inset;
+                           }
+                           .calendar_modern .calendar .month .body .days a.selected {
+                             color: white;
+                             text-shadow: 1px 1px 2px blue;
+                             -webkit-box-shadow: 0 0 18px #000066 inset;
+                             -moz-box-shadow: 0 0 18px #000066 inset;
+                             box-shadow: 0 0 18px #000066 inset;
+                           }
+                           .calendar_modern .calendar .month .body .days a:hover {
+                             color: white;
+                             -webkit-transition-property: text-shadow;
+                             -moz-transition-property: text-shadow;
+                             -o-transition-property: text-shadow;
+                             transition-property: text-shadow;
+                             -webkit-transition-property: box-shadow;
+                             -moz-transition-property: box-shadow;
+                             -o-transition-property: box-shadow;
+                             transition-property: box-shadow;
+                             -webkit-transition-duration: 0.2s;
+                             -moz-transition-duration: 0.2s;
+                             -o-transition-duration: 0.2s;
+                             transition-duration: 0.2s;
+                             text-shadow: 1px 1px 2px green;
+                             -webkit-box-shadow: 0 0 18px #006600 inset;
+                             -moz-box-shadow: 0 0 18px #006600 inset;
+                             box-shadow: 0 0 18px #006600 inset;
+                           }
+                           .calendar_modern .calendar .month .body .days b, .calendar_modern .calendar .month .body .days i, .calendar_modern .calendar .month .body .days s {
+                             color: #ccc;
+                           }
+                           .calendar_modern .calendar .month .body .days b, .calendar_modern .calendar .month .body .days s {
+                             background: #eee;
+                             border-color: #d5d5d5;
+                           }
+                           .calendar_modern .calendar .month .body .days b {
+                             border-top: 1px solid #d5d5d5 !important;
+                             border-bottom: 1px solid #aaaaaa !important;
+                           }
+                           .calendar_modern .calendar .month .body .days b:first-child {
+                             border-left: 1px solid #d5d5d5 !important;
+                           }
+                           .calendar_modern .calendar .month .body .days b:last-of-type{
+                             border-right: 1px solid #aaaaaa !important;
+                           }
+                           
+                           </style>
+                           
+                           
+                           <script type="text/javascript">
+                           
+                           
+                           function getDays()
+                           {
+                           var year = document.getElementById('year').value;
+                           
+                           var month = document.getElementById('month').value;
+                           
+                           return 1
+                           var xmlhttp = new XMLHttpRequest();
+                           xmlhttp.onreadystatechange = function() {
+                           if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                              document.getElementById("days").innerHTML = xmlhttp.responseText;
+                           }
+                           };
+                           var url = "https://www.fns24.com/ajax/getDaysbyYearMonth.php?year=" + year + "&month=" + month;
+                           xmlhttp.open("GET", url, true);
+                           xmlhttp.send();
+                           }
+                           
+                           function callArchieve(str)
+                           {
+                              return 1
+                           var year = document.getElementById('year').value;
+                           
+                           var month = document.getElementById('month').value;
+                           
+                           var date = year+"-"+month+"-"+str;
+                           
+                           window.location='https://www.fns24.com/archive/?date='+date;
+                           }
+                           </script>
+                           
+                           <div id="calendar" class="calendar_modern" style="font-size:10px">
+                              <div class="calendar" style="display:block">
+                           
+                              <div><div style="float:left; text-align:left; width:50%;">
+                              <select class="form-control" name="year" id="year" onchange="getDays()">
+                           
+                              
+                              <option value="2023">২০২৩</option>
+                           
+                              
+                              <option value="2022">২০২২</option>
+                           
+                              
+                              <option value="2021">২০২১</option>
+                           
+                              
+                              <option value="2020">২০২০</option>
+                           
+                              
+                              <option value="2019">২০১৯</option>
+                           
+                              
+                              <option value="2018">২০১৮</option>
+                           
+                              
+                              <option value="2017">২০১৭</option>
+                           
+                              
+                              <option value="2016">২০১৬</option>
+                           
+                              
+                              <option value="2015">২০১৫</option>
+                           
+                              
+                              <option value="2014">২০১৪</option>
+                           
+                              
+                              <option value="2013">২০১৩</option>
+                           
+                              
+                              </select></div>
+                              <div style="float:left; text-align:right; width:50%;">
+                              <select class="form-control" name="month" id="month" onchange="getDays()">
+                           
+                              <option value="01">জানুয়ারী</option>
+                              <option value="02">ফেব্রুয়ারী</option>
+                              <option value="03">মার্চ</option>
+                              <option value="04">এপ্রিল</option>
+                              <option value="05" selected="selected">মে</option>
+                              <option value="06">জুন</option>
+                              <option value="07">জুলাই</option>
+                              <option value="08">অগাস্ট</option>
+                              <option value="09">সেপ্টেম্বর</option>
+                              <option value="10">অক্টোবর</option>
+                              <option value="11">নভেম্বর</option>
+                              <option value="12">ডিসেম্বর</option></select> 
+                              </div>
+                              </div>
+                           
+                              <div class="months">
+                              <div class="month" data-date="2011.1">
+                           
+                              <div class="body">
+                              <div class="clearfix"></div>
+                              <div class="day_names" id="day_names">
+                           
+                                 <i>রোব</i>
+                                 <i>সোম</i>
+                                 <i>মঙ্গল</i>
+                                 <i>বুধ</i>
+                                 <i>বৃহ</i>
+                                 <i>শুক্র</i>
+                                 <i>শনি</i>
+                              
+                           
+                              </div>
+                           
+                              <div class="days" id="days">
+                           
+                                 <b>&nbsp;</b>
+                              
+                                    <a style="cursor:pointer" onclick="callArchieve('01')">০১</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('02')">০২</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('03')">০৩</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('04')">০৪</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('05')">০৫</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('06')">০৬</a>
+                                 
+                                       <a style="cursor:pointer" onclick="callArchieve('07')">০৭</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('08')">০৮</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('09')">০৯</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('10')">১০</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('11')">১১</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('12')">১২</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('13')">১৩</a>
+                                 
+                                       <a style="cursor:pointer" onclick="callArchieve('14')">১৪</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('15')">১৫</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('16')">১৬</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('17')">১৭</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('18')" class="today">১৮</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('19')">১৯</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('20')">২০</a>
+                                 
+                                       <a style="cursor:pointer" onclick="callArchieve('21')">২১</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('22')">২২</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('23')">২৩</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('24')">২৪</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('25')">২৫</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('26')">২৬</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('27')">২৭</a>
+                                 
+                                       <a style="cursor:pointer" onclick="callArchieve('28')">২৮</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('29')">২৯</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('30')">৩০</a>
+                                          <a style="cursor:pointer" onclick="callArchieve('31')">৩১</a>
+                                       
+                              
+                              
+                              
+                           
+                              </div>
+                           
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                           </div>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- tenth Section end -->
+
+         <!-- footer_before section start -->
+         <section class="footer_before_section my-3" id="footer_before_section">
+            <div class="container-fluid">
+               <div class="slider_box">
+                  <div class="footer_slider">
+                     <div class="col gx-1">
+                        <a href="">
+                           <img src="./resources/img/slider-1.jpeg" alt="" class="w-100 img-thumbnail">
+                           <span class="link">
+                              এক গোলাপের দাম ১৪৪ কোটি টাকা!</span>
+                        </a>
+                     </div>
+                     <div class="col gx-1">
+                        <a href="">
+                           <img src="./resources/img/slider-1.jpeg" alt="" class="w-100 img-thumbnail">
+                           <span class="link">
+                              এক গোলাপের দাম ১৪৪ কোটি টাকা! ১৪৪ কোটি টাকা!</span>
+                        </a>
+                     </div>
+                     <div class="col gx-1">
+                        <a href="">
+                           <img src="./resources/img/slider-1.jpeg" alt="" class="w-100 img-thumbnail">
+                           <span class="link">
+                              এক গোলাপের দাম ১৪৪ কোটি টাকা!</span>
+                        </a>
+                     </div>
+                     <div class="col gx-1">
+                        <a href="">
+                           <img src="./resources/img/slider-1.jpeg" alt="" class="w-100 img-thumbnail">
+                           <span class="link">
+                              এক গোলাপের দাম ১৪৪ কোটি টাকা!</span>
+                        </a>
+                     </div>
+                     <div class="col gx-1">
+                        <a href="">
+                           <img src="./resources/img/slider-1.jpeg" alt="" class="w-100 img-thumbnail">
+                           <span class="link">
+                              এক গোলাপের দাম ১৪৪ কোটি টাকা!</span>
+                        </a>
+                     </div>
+                     <div class="col gx-1">
+                        <a href="">
+                           <img src="./resources/img/slider-2.jpeg" alt="" class="w-100 img-thumbnail">
+                           <span class="link">
+                              এক গোলাপের দাম ১৪৪ কোটি টাকা!</span>
+                        </a>
+                     </div> <div class="col gx-1">
+                        <a href="">
+                           <img src="./resources/img/slider-3.jpeg" alt="" class="w-100 img-thumbnail">
+                           <span class="link">
+                              এক গোলাপের দাম ১৪৪ কোটি টাকা!</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- thirteenth section end -->
+         <!-- footer start -->
+         <footer class="">
+            <div class="footer_wrapper bg-dark">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg main_nav">
+                     <button class="navbar-toggler text-center w-100 pt-3 pb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentFooter" aria-controls="navbarSupportedContentFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="text-white fs-6 fw-bold">Navigation</span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContentFooter">
+                        <ul class="navbar-nav navbar_nav_main w-100 ps-0">
+                           <li class="nav-item new_active">
+                              <a class="nav-link text-center" aria-current="page" href="/">
+                                 <span class="ms-1">প্রচ্ছদ</span>
+                              </a>
+                           </li>
+                           
+                           <li class="nav-item">
+                              <a class="nav-link text-center text-nowrap" target="_blank" aria-current="page" href="./pages/category.html">সারা বাংলা </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" target="_blank" aria-current="page" href="./pages/category.html">বাংলাদেশ</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-nowrap text-center" aria-current="page" href="./pages/category.html">অর্থনীতি </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-nowrap text-center" aria-current="page" href="./pages/category.html">বিশ্ব </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/category.html">খেলা </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/category.html">বিনোদন</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">লাইফস্টাইল</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">প্রযুক্তি</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">স্বাস্থ্য </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center" aria-current="page" href="./pages/cateory.html">মুক্তিমত </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center " aria-current="page" href="./pages/cateory.html">প্রবাস </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center " aria-current="page" href="./pages/cateory.html">ছবি </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link text-center " aria-current="page" href="#">টপ <i class="fa-solid fa-arrow-up" style="color: #ffd43b;"></i></a>
+                           </li>
+                           
+                        </ul>
+                     </div>
+                  </nav>
+                </div>
+            </div>  
+            <section class="footer_section bg-dark">
+               <div class="container-fluid">
+                  <p class="text-white mt-3 mb-3 footer_text">সকল প্রকাশিত/প্রচারিত কোনো সংবাদ, তথ্য, ছবি, আলোকচিত্র, রেখাচিত্র, ভিডিওচিত্র, অডিও কনটেন্ট কপিরাইট আইনে পূর্বানুমতি ছাড়া ব্যবহার করা যাবে না।</p>
+               </div>
+               <div>
+                  <div class="container-fluid pt-3">
+                     <div class="row">
+                        <div class="logo_section col-sm-12 col-md-4 col-lg-3 d-flex
+                           justify-content-start flex-column">
+                           <img src="./resources/img/fns24_icon&Logo.png" alt="site-logo" class="img-fluid main_logo pt-2 pb-2">
+                           <p class="general_fontSize text_white">Copyright @ 2023 FNS24 Ltd</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 d-flex
+                           justify-content-center
+                           align-items-center">
+                           <ul class="row container d-flex justify-content-around
+                              align-items-center no_bullet">
+                              <li class="text_white footer_text ms-3">ফেয়ার নিউজ সার্ভিস লিমিটেড।</li>
+                              <li class="text_white footer_text ms-3">আয়েশা আক্তার ভবন।</li>
+                              <li class="text_white footer_text ms-3">১০ম তলা, ফ্ল্যাট নং: ১০এ,</li>
+                              <li class="text_white footer_text ms-3">২৪/ডি তোপখানা রোড,</li>
+                              <li class="text_white footer_text ms-3">সেগুন বাগিচা ঢাকা - ১০০০।</li>
+                              <li class="text_white footer_text ms-3">মোবাইল: ০১৭৮১৯০৬০৫২, ০১৭৯৭৫৬৯৬০৬। ফোন : ০২ ৪৭১২০৭৭৯-৮৩</li>
+                              <li class="text_white footer_text ms-3">ইমেইল: fnspress@gmail.com</li>
+                              <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                 align-items-center">
+                                 <a href="#" class="upper_nav_links mt-1 text-nowrap
+                                    text-decoration-none
+                                    text_white">About the FNS</a>
+                              </li>
+                              <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                 align-items-center">
+                                 <a href="#" class="mt-1 upper_nav_links text-nowrap
+                                    text-decoration-none
+                                    text_white">Privacy Policy</a>
+                              </li>
+                              <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                 align-items-center">
+                                 <a href="#" class="mt-1 upper_nav_links text-nowrap
+                                    text-decoration-none
+                                    text_white">Newsletter Subscribe</a>
+                              </li>
+                              <li class="p-0 me-3 mb-3 col d-flex justify-content-center
+                                 align-items-center">
+                                 <a href="#" class="mt-1 upper_nav_links text-nowrap
+                                    text-decoration-none
+                                    text_white">Archive</a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="socialLink_section mb-3 col-sm-12 col-md-2 col-lg-3
+                           d-flex justify-content-end align-items-center flex-column">
+                           <div>
+                              <a href="#" class="me-2">
+                              <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/facebook.png" alt="facebook_image">
+                              </a>
+                              <a href="#" class="me-2">
+                              <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/twitter.png" alt="twitter_image">
+                              </a>
+                              <a href="#" class="me-2">
+                              <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/youtube.png" alt="youtube_image">
+                              </a>
+                              <a href="#" class="me-2">
+                              <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/plus.png" alt="plus_image">
+                              </a>
+                              <a href="#" class="me-2">
+                              <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/linkedin.png" alt="linkedin_image">
+                              </a>
+                              <a href="#">
+                              <img class="img-fluid social_image" src="https://www.fns24.com/includes/themes/default/images/rss.png" alt="rss_image">
+                              </a> 
+                           </div>
+                           <p class="text_white footer_text mt-1">Website Developped By TheARSoft.com</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </footer>
+         <!-- footer end ---->
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+      <!-- Jquery CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+      <!-- Video Gallery -->
+      <script src="./resources/js/html5gallery.js"></script>
+
+      <script src="./resources/js/main.js"></script>
+   </body>
+</html>

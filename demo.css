@@ -1,0 +1,63 @@
+.main_nav{
+    background: #222B46;
+    padding: 0;
+    color: #FFF;
+}
+.main_nav .nav-link,.dropdown-item{
+    color: #fff;
+}
+ .nav-link{
+    font-size: 14px;
+}
+.new_active{
+    background-color: red;
+}
+.nav-item{
+    /* border-right: 1px solid #ccc; */
+}
+.main_nav ul li:last-child{
+    border-right: 1px solid transparent;
+}
+
+.dropdown-item{
+    border-bottom: 1px solid #f3eeee2c;
+    transition: .6s;
+    color: #fff;
+    border: none;
+}
+
+.dropdown-item:hover{
+    background: #303E66;
+    color: #fff;
+}
+
+.collapse_navbar{
+    padding-right: 0px !important;
+}
+
+ul.dropdown-menu li{
+    border-bottom: 1px solid #cccccc41;
+}
+ul.dropdown-menu li:last-child{
+    border-bottom: 1px solid transparent;
+}
+.navbar-toggler{
+    text-align: center;
+
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/* .main_nav{
+    margin-top: 8px; // Small Device 
+} */
+/* .menubar{
+    border: none !important;
+    color: #fff;
+    font-size: 15px;
+    display: block!important;
+    padding: 10px 150px;
+    font-weight: 500;
+    letter-spacing: 2;
+} */
+
